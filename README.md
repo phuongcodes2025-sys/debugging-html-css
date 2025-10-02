@@ -4,12 +4,26 @@ Welcome to the Debugging Assignment repository! This repository contains the res
 
 ## Files Included
 
+##Warning: This document appears to be written in English. Consider adding lang="en" (or variant) to the html start tag.
+
+##Error: Element meta is missing one or more of the following attributes: charset, content, http-equiv, itemprop, name, property.
+
+## Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+## Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
+
+
 1. **index.html**
    - Contains intentional errors for students to identify and fix.
    - Errors include issues with HTML syntax, structure, accessibility, and semantic correctness.
 
 2. **style.css**
    - Includes intentional errors related to CSS syntax, selectors, and properties.
+
+   color: #B2;/* Invalid color value. Hex codes must have 3 or 6 characters. */
+
+    /* Corrected color value below */
+    color: #B2B2B2;
 
 3. **Expected Site Design**
    - Includes a screenshot of the error-free page (`images/expected-site-design.png`) to serve as a reference for students.

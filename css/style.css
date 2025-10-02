@@ -30,7 +30,10 @@ header img {
 footer {
 	text-align: center;
 	background-color: #092834;
-	color: #B2;
+	color: #B2;/* Invalid color value. Hex codes must have 3 or 6 characters. */
+
+    /* Corrected color value below */
+    color: #B2B2B2;
 	clear: both;
 }
 
