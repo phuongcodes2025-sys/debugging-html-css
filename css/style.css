@@ -30,9 +30,8 @@ header img {
 footer {
 	text-align: center;
 	background-color: #092834;
-	color: #B2B2B2;/* Invalid color value. Hex codes must have 3 or 6 characters. */
-
-    /* Corrected color value from #B2 to #B2B2B2 */
+	/* color: #B2; Invalid color value. Hex codes must have 3 or 6 characters. */
+	color: #B2B2B2;
 	clear: both;
 }
 
@@ -42,7 +41,8 @@ footer h2 {
 
 h1 {
 	font-family: 'Love Ya Like A Sister', cursive;
-	font-size: 5vw; /* Fixed: Removed the space between 5 and vw */
+	/* font-size: 5 vw; Fixed: Removed the space between 5 and vw */
+	font-size: 5vw; 
 	color: #B2D732;
 	text-align: center;
 	text-shadow: 3px 2px 5px #202020;
@@ -65,7 +65,8 @@ h3 {
 
 p {
 	font-family: Arial, Helvetica, sans-serif;
-	line-height: 1.35; /* Fixed: Removed the invalid 'me' unit */
+	 /* line-height: 1.35me; Fixed: Removed the invalid 'me' unit */
+	 line-height: 1.35;
 	margin-top: 1em;
 }
 
@@ -84,7 +85,8 @@ ol {
 }
 
 .error {
-	color: #FE2712;/* Fixed: Removed the extra digit 2 */
+	 /* color: #FE27122; Fixed: Removed the extra digit 2 */
+	 color: #FE2712;
 }
 
 a {
@@ -93,7 +95,8 @@ a {
 
 a:hover {
 	color: #2E6C85;
-	text-decoration: none;/* Fixed: Changed 'all' to 'none' */
+	/* 	text-decoration: all; Fixed: Changed 'all' to 'none' */
+	text-decoration: none;
 }
 
 a:visited {

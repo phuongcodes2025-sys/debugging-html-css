@@ -24,13 +24,23 @@ aside {
   height: auto;
   float: right;
 
-  dt {
-    font-weight: bold;
-  }
+  /* Incorrectly nested rules for dt and dd */
+  /* dt {
+       font-weight: bold;
+     }
 
-  dd {
-    padding: 0 10px;
-  }
+     dd {
+       padding: 0 10px;
+     } */
+}
+
+/* Corrected dt and dd rules moved outside of aside */
+dt {
+  font-weight: bold;
+}
+
+dd {
+  padding: 0 10px;
 }
 
 footer {
